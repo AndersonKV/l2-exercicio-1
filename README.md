@@ -25,13 +25,13 @@ Sistema de empacotamento de produtos com validação de dimensões e autenticaç
 
 No terminal, execute:
 
-Construir imagem: docker build -t packing-service .
-Rodar container: docker run -p 8080:8080 packing-service
+Construir imagem: docker build -t packing-service . </br>
+Rodar container: docker run -p 8080:8080 packing-service</br>
 
-A aplicação estará acessível em:
-Swagger: http://localhost:8080/swagger-ui.html
+A aplicação estará acessível em:</br>
+Swagger: http://localhost:8080/swagger-ui.html</br>
 
-Exemplo de entrada
+Exemplo de entrada</br>
 
 {
   "pedidos": [
@@ -46,7 +46,7 @@ Exemplo de entrada
 }
 
 
-Exemplo de saída
+Exemplo de saída</br>
 
 {
   "pedidos": [

@@ -15,6 +15,7 @@ Sistema de empacotamento de produtos com validação de dimensões e autenticaç
 - 🔄 **Endpoint principal:** `POST /api/v1/packing`
 - 🧪 **Testes E2E incluídos**
 -  Projeto em Microserviço (sobe, responde e desliga sem depender de outro monolito)
+-  Java 17 e Spring 3.5.0
 ---
 
 ## 🚀 Como rodar o projeto com Docker (Windows)
